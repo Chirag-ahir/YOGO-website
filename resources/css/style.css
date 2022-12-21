@@ -195,7 +195,7 @@ body {
     margin: 40px 0;
 }
 .container{
-    color: #000;
+    /* color: #000; */
 }
 .carousel-item img {
     width: 150px !important;
@@ -214,19 +214,19 @@ body {
 .carousel-caption h6{
     margin-top: 65px;
     font-weight: bold;
-    color: #000;
+    color: #808080 !important;
 }
 .carousel-caption small{
     margin-top: 10px;
     margin-bottom: 50px;
     display: block;
-    color: #000;
+    color: #808080 !important;
 }
 .carousel-caption p{
     text-align: center;
     padding: 0 50px;
     font-size: 15px;
-    color: #808080;
+    color: #808080 !important;
 }
 .carousel-indicators button{
     background-color: #6900d1 !important;
