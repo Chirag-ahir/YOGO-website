@@ -58,8 +58,9 @@ body {
     font-size: 60px;
 }
 
-.banner img {
-    margin-top: -128px;
+.himg{
+    margin-bottom: 0;
+    
 }
 
 .banner a{
