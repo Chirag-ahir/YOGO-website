@@ -3,6 +3,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 ::-webkit-scrollbar {
     display: none;
@@ -11,6 +12,9 @@ body {
 .header {
     background: #7521c9;
     height: 100vh;
+    background-image:url(../pictures/home.png);
+    background-position: center;
+    background-repeat: none;
 }
 
 .navbar {
@@ -56,11 +60,6 @@ body {
     margin: 80px 0 50px;
     font-weight: 600;
     font-size: 60px;
-}
-
-.himg{
-    margin-bottom: 0;
-    
 }
 
 .banner a{
