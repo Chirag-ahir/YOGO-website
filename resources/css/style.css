@@ -86,8 +86,8 @@ body {
 }
 
 @media screen and (max-width: 800px){
-    .banner img{
-        display: none;
+    .header {
+        background-image: none;
     }
     .banner h1{
         font-size: 45px;
