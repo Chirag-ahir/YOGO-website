@@ -12,7 +12,7 @@ body {
 .header {
     background: #7521c9;
     height: 100vh;
-    background-image:url(../pictures/home.png);
+    background-image:url(../img/home.png);
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -28,7 +28,15 @@ body {
 
 .nav-link {
     color: #fff;
+    padding: 5px;
     font-size: 14px;
+    margin-left: 5px;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: white;
+    border-radius: 5px;
 }
 
 .fa-bars {
@@ -44,12 +52,8 @@ body {
 .active-home {
     font-weight: bold;
     color: #000;
-    border-bottom: 1px solid #000;
-}
-
-.nav-link:hover {
-    color: black;
-    transition-delay: 0.2s;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .banner {
@@ -76,9 +80,7 @@ body {
     font-size: 14px;
     color: #fff;
 }
-.banner a:hover{
-    border-color: #000;
-}
+
 .express-btn {
     background-color: #fff;
     color: #000 !important;
